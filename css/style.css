@@ -301,7 +301,8 @@ a {
 }
 
 .gallery figure.cc-effect .h4 {
-    margin-top: 20%;
+    margin-top: 10%;
+    margin-bottom: 3%;
     -webkit-transition: -webkit-transform 0.35s;
     transition: -webkit-transform 0.35s;
     transition: transform 0.35s, -webkit-transform 0.35s;
