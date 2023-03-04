@@ -16,10 +16,10 @@ $(document).ready(function () {
     }); // initialize animate on scroll library
 
     $(".show-more a").click(function(event) {
-        console.log("clicked");
         var $this = $(this); 
         var $content = $this.parent().prev("div.gallery");
         var linkText = $this.text().toUpperCase();    
+        console.log("$content", $content);
         
         if(linkText === "SHOW MORE"){
             linkText = "Show less";
