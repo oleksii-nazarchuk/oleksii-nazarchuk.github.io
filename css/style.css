@@ -424,7 +424,7 @@ a {
 figure {
     margin-bottom: 1.5rem;
 }
-
+/* 
 .see-more {
     color: #6c757d !important;;
 }
@@ -433,7 +433,7 @@ figure {
 }
 .see-more:active {
     color: #fff !important;;
-}
+} */
 
 .hideContent {
     overflow: hidden;
