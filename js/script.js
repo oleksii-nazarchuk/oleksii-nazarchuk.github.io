@@ -18,7 +18,7 @@ $(document).ready(function () {
     $(".show-more a").click(function(event) {
         console.log("clicked");
         var $this = $(this); 
-        var $content = $this.parent().prev(".gallery");
+        var $content = $this.parent().prev("div.gallery");
         var linkText = $this.text().toUpperCase();    
         
         if(linkText === "SHOW MORE"){
