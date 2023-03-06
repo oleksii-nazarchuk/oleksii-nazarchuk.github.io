@@ -15,7 +15,7 @@ $(document).ready(function () {
         // once: true
     }); // initialize animate on scroll library
 
-    $(".show-more a").click(function(event) {
+    $(".show-more button").click(function(event) {
         var $this = $(this); 
         var $content = $this.parent().prev("div.gallery");
         var linkText = $this.text().toUpperCase();    
