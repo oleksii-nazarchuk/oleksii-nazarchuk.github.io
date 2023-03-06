@@ -384,7 +384,7 @@ a {
 
 .img-raised {
     -webkit-box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);
-    box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.3);
 }
 
 .copyleft {
@@ -438,7 +438,7 @@ figure {
 .hideContent {
     overflow: hidden;
     line-height: 1em;
-    height: 2em;
+    height: 24em;
 }
 
 .showContent {
