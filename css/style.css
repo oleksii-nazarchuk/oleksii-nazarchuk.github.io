@@ -425,7 +425,7 @@ figure {
     margin-bottom: 1.5rem;
 }
 
-.see-more .see-more:hover .see-more:active{
+.see-more, .see-more:hover, .see-more:active{
     color: #6c757d !important;;
 }
 /* .see-more:hover {

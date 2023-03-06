@@ -23,10 +23,14 @@ $(document).ready(function () {
         
         if(linkText === "SHOW MORE"){
             linkText = "Show less";
-            $content.switchClass("hideContent", "showContent", 400);
+            // $content.switchClass("hideContent", "showContent", 400);
+            $content.removeClass("hideContent");
+            $content.addClass("showContent");
         } else {
             linkText = "Show more";
-            $content.switchClass("showContent", "hideContent", 400);
+            // $content.switchClass("showContent", "hideContent", 400);
+            $content.removeClass("showContent");
+            $content.addClass("hideContent");
         };
     
         $this.text(linkText);
