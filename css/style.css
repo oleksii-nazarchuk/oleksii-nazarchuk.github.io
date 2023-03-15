@@ -438,7 +438,7 @@ figure {
 .hideContent {
     overflow: hidden;
     line-height: 1em;
-    height: 24em;
+    height: 48em;
 }
 
 .showContent {
